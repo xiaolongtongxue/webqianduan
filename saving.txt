@@ -1,0 +1,2 @@
+https://www.cnblogs.com/nolaaaaa/p/9126385.html
+//nodejs下http-server安装教程
