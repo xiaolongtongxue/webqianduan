@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加入我们</title>
+    <link rel="icon" href="image/logo.png" sizes="320x320">
+    <link rel="stylesheet" href="css/style_to_all.css">
+    <script src="JS/time_now.js"></script>
+    <link rel="stylesheet" href="css/CopyRight.css">
+</head>
+<body>
+<script>
+    window.onload=function (){
+        //每1秒(1000毫秒)刷新时间
+        setInterval("time_now()",1000);
+    }
+</script>
+<div class="logo">
+    <img class="logo" src="image/logo_big.png" alt="Loading Error">
+</div>
+<div id="timenow" style="margin-left: 5%"></div>
+<script>for (var i=0;i<3;i++) document.write("<br>");</script>
+<div style="background-color: rgb(12,25,57);height: 90px;width: 90%;margin: auto"></div>
+<br>
+<a href="index.html" style="display: inline-block;font-size: 20px;margin-left: 5%">返回主界面</a>
+<p class="join">
+    Welcome To join us!
+</p>
+<p class="join">
+    To facilitate us to understand your information, please complete the following form.
+</p>
+<hr>
+<form class="my_f">您的性别
+    <label>
+        <input type="radio" name="my_sex" value="男">男
+        <input type="radio" name="my_sex" value="女">女
+    </label>
+</form>
+<hr>
+<form class="my_f">您的学校
+    <label for="user_name">
+        <input type="text" id="user_name" size="40">
+    </label>
+</form>
+<hr>
+<form class="my_f">您的年级
+    <label>
+        <select id="my_s" size="1">
+            <option value="大一">大一</option>
+            <option value="大二">大二</option>
+            <option value="大三">大三</option>
+            <option value="大四">大四</option>
+            <option value="大专">大专</option>
+        </select>
+    </label>
+</form>
+<hr>
+<form class="my_f">您对我们的建议:<br>
+    <label>
+        <textarea cols="100" rows="5" placeholder="在这里输入内容..."></textarea>
+    </label>
+</form>
+<hr>
+<form class="my_f">您的自我介绍以及自己可以做的事:<br>
+    <label>
+        <textarea cols="100" rows="5" placeholder="在这里输入内容..."></textarea>
+    </label>
+</form>
+<hr>
+<p style="text-align: center">
+    <button>
+        提交
+    </button>
+    <input type="button" onclick="clear()" value="清空">
+</p>
+<div class="copyright">
+    <p class="copyright" style="color: rgb(20,20,20)">Copyright&copy; 2021 QuYueDu版权所有</p>
+</div>
+</body>
+</html>
