@@ -1,0 +1,8 @@
+p.copyright{
+    font-size: 25px;
+    text-align: center;
+}
+div.copyright{
+    display: inline-block;
+    width: 100%;
+}

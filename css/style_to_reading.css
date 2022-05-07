@@ -1,0 +1,75 @@
+div.back{
+    float: top;
+    font-size: 22px;
+    width: 180px;
+    text-align: center;
+    margin-top: -20px;
+    position: fixed;
+}
+a{color: whitesmoke;}
+a:hover{color: burlywood;}
+div.choose{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: "楷体",serif;
+    width: 16%;
+    float: left;
+    position: fixed;
+
+}
+#read{
+    font-size: 30px;
+    font-family: "楷体",serif;
+    font-weight: bold;
+    width: 55%;
+    height: auto;
+    padding: 80px;
+    margin: 40px auto;
+    float: top;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    overflow-y:scroll;
+    display: inline-block;
+    height: 440px;
+    margin-top: 0;
+}
+a button:hover,
+a button:visited{
+    color: rgb(230,235,240);
+    background-color: rgba(100,120,95,0.8);
+}
+button{
+    background-color: rgba(168,177,187,0.8);
+    border: black 10px;
+    color: rgb(13,16,17);
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+div.back_top{
+    display: block;
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    background-color: rgba(168,177,187,0.8);
+}
+img{
+    margin-right: 0;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+

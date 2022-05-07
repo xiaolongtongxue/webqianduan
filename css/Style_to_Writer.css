@@ -1,0 +1,56 @@
+@font-face {
+    font-family: MyFontName1;
+    src: url("../font-family/ttf1.ttf");
+}/*字定义字体:ttf1.ttf*/
+
+a{color: whitesmoke;}
+a:hover{color: burlywood;}
+div.photo{
+    margin-top: 16%;
+    margin-right: 2%;
+    width: 15%;
+    float: right;
+}
+img.photo{width: 100%;}
+div.txt{
+    margin-left: 3%;
+    float: contour;
+    height: auto;
+    width: 77%;
+}
+h1.Writer{text-align: left;font-size: 80px;}
+a.to_gellary{display: block;float:right;font-size: 26px;}
+p{font-size: 24px;text-indent: 2em;}
+div.reading{
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 3% 80px;
+}
+a.fengpi{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: MyFontName1, serif;
+    margin-right: 5px;
+}
+img.fengpi{width: 100%;height: 100%;}
+h1.reading{
+    text-align: left;
+    font-size: 100px;
+    font-family: "楷体", serif;
+}
+h2.reading{
+    text-align: left;
+    font-size: 23px;
+    font-family: "新宋体",serif;
+}
+div.commond{
+    display: inline-block;
+    margin-left: 2%;
+    width: 16%;
+    height: 23vw;
+}
+

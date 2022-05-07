@@ -1,0 +1,120 @@
+body{background-color: rgba(160,160,160,0.8);}
+@font-face {
+    font-family: MyFontName1;
+    src: url(../font-family/ttf1.ttf);
+}
+@font-face {
+    font-family: MyFontName2;
+    src: url(../font-family/to_num.ttf);
+}
+@font-face {
+    font-family: MyFontName3;
+    src: url(../font-family/ttf2.ttf);
+}
+
+a{color: rebeccapurple;text-decoration: none;}
+a:hover{color: chartreuse;}
+h2{text-align: center;font-size: 80px;}
+div.logo{
+    display: inline-block;
+    float: left;
+    margin-left: 8%;
+    height: 150px;
+    width: 150px;
+}
+img.logo{
+    width: 100%;
+    height: 100%;
+}
+#timenow{
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    font-size: 40px;
+    font-family: MyFontName2, serif;
+}
+
+table{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 5%;
+    border: #333333 solid 2px;
+    display: inline-block;
+    font-family: MyFontName3, serif;
+
+}
+
+div.here{
+    margin-left: 5%;
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+p.txt{
+    font-size: 50px;
+    font-family: MyFontName2, serif;
+}
+img.bg{
+    width: 80%;
+    height: 50%;
+}
+p.to{
+    width: 1em;
+    height: auto;
+    display: inline-block;
+    font-size: 45px;
+    font-family: MyFontName1, serif;
+}
+div.Reading_type{
+    font-size: 25px;
+    margin: 5%;
+    font-family: MyFontName2, serif;
+    padding-bottom: 0;
+
+}
+div.commond1{
+    display: inline-block;
+    margin-left: 2.6%;
+    text-align: center;
+    width: 13%;
+    height: 18vw;
+}
+img.photo{width: 100%;height: 100%;}
+div.Writer_type{
+    padding-top: 0;
+    font-size: 30px;
+    margin: 20% 2%;
+    margin-left: 20%;
+    font-family: MyFontName2, serif;
+    border-color: #333333;
+    height: 0;
+}
+a.photo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: MyFontName1, serif;
+    margin-right: 19px;
+}
+
+p.join{
+    text-align: left;
+    margin-left: 5%;
+    font-family: MyFontName1, serif;
+    font-size: 50px;
+    text-indent: 2em;
+}
+form{
+    margin-left: 5%;
+    font-family: MyFontName2, serif;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
